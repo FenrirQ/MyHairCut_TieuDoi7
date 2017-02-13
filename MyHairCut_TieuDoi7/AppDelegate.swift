@@ -7,15 +7,39 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var customizedLaunchScreenView: UIView?
+    var custom : customLaunchScreen!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        FIRApp.configure()
+        // Override point for customization after application launch.
+        var prefersStatusBarHidden: Bool {
+            return true
+        }
+        
+        // customized launch screen
+            
+            custom  = customLaunchScreen()
+            customizedLaunchScreenView = UIView()
+            customizedLaunchScreenView = custom.view
+            self.window?.makeKeyAndVisible()
+            self.window?.addSubview(self.customizedLaunchScreenView!)
+            self.window?.bringSubview(toFront: self.customizedLaunchScreenView!)
+            UIView.animate(withDuration: 1, delay: 2, options: .curveEaseOut,
+                                       animations: { () -> Void in
+                self.customizedLaunchScreenView?.alpha = 0
+            },
+                completion: { _ in
+                self.customizedLaunchScreenView?.removeFromSuperview() })
+        
         return true
     }
 

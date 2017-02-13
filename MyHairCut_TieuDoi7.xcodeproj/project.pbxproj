@@ -7,21 +7,157 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33A0C9435C521B360F0AA3DF /* Pods_MyHairCut_TieuDoi7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81487A4C86159D42F1E33E9 /* Pods_MyHairCut_TieuDoi7.framework */; };
+		6508EA0A1DF545D200BCC52B /* AdviceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6508EA091DF545D200BCC52B /* AdviceVC.swift */; };
+		6508EA0C1DF5490800BCC52B /* no-image-available_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6508EA0B1DF5490800BCC52B /* no-image-available_1.png */; };
+		6508EA0E1DF7086B00BCC52B /* Menu_000000_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 6508EA0D1DF7086B00BCC52B /* Menu_000000_25.png */; };
+		6508EA101DF713F800BCC52B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6508EA0F1DF713F800BCC52B /* HomeVC.swift */; };
+		6508EA121DF7ADFA00BCC52B /* customLaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6508EA111DF7ADFA00BCC52B /* customLaunchScreen.swift */; };
+		6508EA141DF7B2FF00BCC52B /* salon logo square.png in Resources */ = {isa = PBXBuildFile; fileRef = 6508EA131DF7B2FF00BCC52B /* salon logo square.png */; };
+		650C2D741DFA4641000E923B /* Screen Shot 2016-12-09 at 8.51.01 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 650C2D731DFA4641000E923B /* Screen Shot 2016-12-09 at 8.51.01 AM.png */; };
+		656544DB1DC8EDBF00ADB186 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 656544DA1DC8EDBF00ADB186 /* GoogleService-Info.plist */; };
+		656544DD1DC8F2AA00ADB186 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656544DC1DC8F2AA00ADB186 /* LoginVC.swift */; };
+		656544DF1DC8F2D900ADB186 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656544DE1DC8F2D900ADB186 /* SignupVC.swift */; };
+		659CDC471DCB82D8009F3EE5 /* Calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC411DCB82D8009F3EE5 /* Calendar.png */; };
+		659CDC481DCB82D8009F3EE5 /* Calendar1.png in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC421DCB82D8009F3EE5 /* Calendar1.png */; };
+		659CDC491DCB82D8009F3EE5 /* Contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC431DCB82D8009F3EE5 /* Contacts.png */; };
+		659CDC4A1DCB82D8009F3EE5 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC441DCB82D8009F3EE5 /* Home.png */; };
+		659CDC4B1DCB82D8009F3EE5 /* Home1.png in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC451DCB82D8009F3EE5 /* Home1.png */; };
+		659CDC4C1DCB82D8009F3EE5 /* Manager.png in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC461DCB82D8009F3EE5 /* Manager.png */; };
+		659CDC521DCD7D9B009F3EE5 /* HomeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659CDC511DCD7D9B009F3EE5 /* HomeTVC.swift */; };
+		659CDC541DCD834A009F3EE5 /* CellTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659CDC531DCD834A009F3EE5 /* CellTVCell.swift */; };
+		659CDC571DCD845C009F3EE5 /* hairStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659CDC561DCD845C009F3EE5 /* hairStyles.swift */; };
+		659CDC5D1DCD869E009F3EE5 /* 20160402-101353-angular-fringe_520x680.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC5A1DCD869E009F3EE5 /* 20160402-101353-angular-fringe_520x680.jpg */; };
+		659CDC5E1DCD869E009F3EE5 /* 20160404-121857-asian-boy-hairstyles_520x711.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC5B1DCD869E009F3EE5 /* 20160404-121857-asian-boy-hairstyles_520x711.jpg */; };
+		659CDC5F1DCD869E009F3EE5 /* Capture.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC5C1DCD869E009F3EE5 /* Capture.JPG */; };
+		659CDC631DCD86AF009F3EE5 /* 20160404-123936-choiseung-hyunhairstyle_520x548.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC601DCD86AF009F3EE5 /* 20160404-123936-choiseung-hyunhairstyle_520x548.jpg */; };
+		659CDC641DCD86AF009F3EE5 /* 20160404-123937-taecyeon-hairstyle_520x698.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC611DCD86AF009F3EE5 /* 20160404-123937-taecyeon-hairstyle_520x698.jpg */; };
+		659CDC651DCD86AF009F3EE5 /* brushed-up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC621DCD86AF009F3EE5 /* brushed-up.jpg */; };
+		659CDC6C1DCD874B009F3EE5 /* 2-ohay-tv-57254.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC691DCD874B009F3EE5 /* 2-ohay-tv-57254.jpg */; };
+		659CDC6D1DCD874B009F3EE5 /* buzz-cut-men-hairstyles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC6A1DCD874B009F3EE5 /* buzz-cut-men-hairstyles.jpg */; };
+		659CDC6E1DCD874B009F3EE5 /* kieu-toc-nam-2015-quyen-ru-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC6B1DCD874B009F3EE5 /* kieu-toc-nam-2015-quyen-ru-8.jpg */; };
+		659CDC741DCD894D009F3EE5 /* Capture1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC711DCD894D009F3EE5 /* Capture1.JPG */; };
+		659CDC751DCD894D009F3EE5 /* image-892x1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC721DCD894D009F3EE5 /* image-892x1024.jpg */; };
+		659CDC761DCD894D009F3EE5 /* toc-bui-dac-quyen-khong-cua-rieng-ai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC731DCD894D009F3EE5 /* toc-bui-dac-quyen-khong-cua-rieng-ai.jpg */; };
+		659CDC7B1DCD899A009F3EE5 /* 20160404-101112-c9223f4d1cae224198c673f666efc9f1_520x626.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC781DCD899A009F3EE5 /* 20160404-101112-c9223f4d1cae224198c673f666efc9f1_520x626.jpg */; };
+		659CDC7C1DCD899A009F3EE5 /* modern-pompadour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC791DCD899A009F3EE5 /* modern-pompadour.jpg */; };
+		659CDC7D1DCD899A009F3EE5 /* winter-kapsels-2016-mannen-56_16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC7A1DCD899A009F3EE5 /* winter-kapsels-2016-mannen-56_16.jpg */; };
+		659CDC821DCD89B8009F3EE5 /* crane4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC7F1DCD89B8009F3EE5 /* crane4.jpg */; };
+		659CDC831DCD89B8009F3EE5 /* ea7796a0ecd3764dd8792ec15929ad81.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC801DCD89B8009F3EE5 /* ea7796a0ecd3764dd8792ec15929ad81.jpg */; };
+		659CDC841DCD89B8009F3EE5 /* toc-quiff-nam-dep-sanh-dieu-khong-loi-mot-thoi-trang-2015-2016-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC811DCD89B8009F3EE5 /* toc-quiff-nam-dep-sanh-dieu-khong-loi-mot-thoi-trang-2015-2016-7.jpg */; };
+		659CDC8A1DCD89F6009F3EE5 /* 7-ohay-tv-49283.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC861DCD89F6009F3EE5 /* 7-ohay-tv-49283.jpg */; };
+		659CDC8B1DCD89F6009F3EE5 /* 20160404-101926-bcd5e1b7403789d6631fd57e9506f620_520x520.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC871DCD89F6009F3EE5 /* 20160404-101926-bcd5e1b7403789d6631fd57e9506f620_520x520.jpg */; };
+		659CDC8C1DCD89F6009F3EE5 /* side_part_hairstyles_men_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC881DCD89F6009F3EE5 /* side_part_hairstyles_men_7.jpg */; };
+		659CDC8D1DCD89F6009F3EE5 /* side-part-fade-hairstyles-men-hairstyles-for-men-a-guide-to-mens-haircuts-gentleman39s-gazette-Picture-HD-Wallpapers-Stylir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC891DCD89F6009F3EE5 /* side-part-fade-hairstyles-men-hairstyles-for-men-a-guide-to-mens-haircuts-gentleman39s-gazette-Picture-HD-Wallpapers-Stylir.jpg */; };
+		659CDC921DCD8A1C009F3EE5 /* 52834-nhung-kieu-toc-dep-cho-nam-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC8F1DCD8A1C009F3EE5 /* 52834-nhung-kieu-toc-dep-cho-nam-2.jpg */; };
+		659CDC931DCD8A1C009F3EE5 /* 20160404-104945-hair281_520x356.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC901DCD8A1C009F3EE5 /* 20160404-104945-hair281_520x356.jpeg */; };
+		659CDC941DCD8A1C009F3EE5 /* 20160404-123245-short-and-slick-hairstyle-for-men_520x310.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC911DCD8A1C009F3EE5 /* 20160404-123245-short-and-slick-hairstyle-for-men_520x310.jpg */; };
+		659CDC991DCD8A39009F3EE5 /* Slicked-backKieu-toc-dep-va-don-gian-nhat-moi-thoi-dai_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC961DCD8A39009F3EE5 /* Slicked-backKieu-toc-dep-va-don-gian-nhat-moi-thoi-dai_5.jpg */; };
+		659CDC9A1DCD8A39009F3EE5 /* Slicked-backKieu-toc-dep-va-don-gian-nhat-moi-thoi-dai_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC971DCD8A39009F3EE5 /* Slicked-backKieu-toc-dep-va-don-gian-nhat-moi-thoi-dai_7.jpg */; };
+		659CDC9B1DCD8A39009F3EE5 /* the-joker_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC981DCD8A39009F3EE5 /* the-joker_0.jpg */; };
+		659CDCA01DCD8A51009F3EE5 /* ten-goi-cac-kieu-toc-nam-han-quoc-duoc-yeu-thich-nhat-1454443389-56b10b7dd9b2c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC9D1DCD8A51009F3EE5 /* ten-goi-cac-kieu-toc-nam-han-quoc-duoc-yeu-thich-nhat-1454443389-56b10b7dd9b2c.jpg */; };
+		659CDCA11DCD8A51009F3EE5 /* toc-nam-han-quoc-dep-cua-tai-tu-yonghwa-duoc-ua-chuong-nhat-2016-14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC9E1DCD8A51009F3EE5 /* toc-nam-han-quoc-dep-cua-tai-tu-yonghwa-duoc-ua-chuong-nhat-2016-14.jpg */; };
+		659CDCA21DCD8A51009F3EE5 /* toc-nam-tia-layer-ngan-dep-2016-phong-cach-nhu-lee-min-ho-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDC9F1DCD8A51009F3EE5 /* toc-nam-tia-layer-ngan-dep-2016-phong-cach-nhu-lee-min-ho-2.jpg */; };
+		659CDCA81DCD8A7B009F3EE5 /* toc-nam-undercut-ngan-dep-2015-2016-cho-khuon-mat-tron-banh-bao-13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDCA41DCD8A7B009F3EE5 /* toc-nam-undercut-ngan-dep-2015-2016-cho-khuon-mat-tron-banh-bao-13.jpg */; };
+		659CDCA91DCD8A7B009F3EE5 /* toc-nam-undercut-ngan-dep-2015-2016-cho-khuon-mat-tron-banh-bao-14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDCA51DCD8A7B009F3EE5 /* toc-nam-undercut-ngan-dep-2015-2016-cho-khuon-mat-tron-banh-bao-14.jpg */; };
+		659CDCAA1DCD8A7C009F3EE5 /* toc-undercut-Beckham.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDCA61DCD8A7B009F3EE5 /* toc-undercut-Beckham.jpg */; };
+		659CDCAB1DCD8A7C009F3EE5 /* toc-undercut1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659CDCA71DCD8A7B009F3EE5 /* toc-undercut1.jpg */; };
+		659CDCAD1DCD8F87009F3EE5 /* 2-salon-barber-logo-design.png in Resources */ = {isa = PBXBuildFile; fileRef = 659CDCAC1DCD8F87009F3EE5 /* 2-salon-barber-logo-design.png */; };
+		659CDCAF1DCD9967009F3EE5 /* DetailStyleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659CDCAE1DCD9967009F3EE5 /* DetailStyleVC.swift */; };
+		659EB66A1DF8076E00102D9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659EB6691DF8076E00102D9A /* LaunchScreen.storyboard */; };
+		65B1E2EA1DF8830D000711C1 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B1E2E91DF8830D000711C1 /* CustomTextField.swift */; };
+		65B1E2ED1DF88490000711C1 /* Inbox_000000_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B1E2EB1DF88490000711C1 /* Inbox_000000_25.png */; };
+		65B1E2EE1DF88490000711C1 /* Lock_000000_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B1E2EC1DF88490000711C1 /* Lock_000000_25.png */; };
+		65D167D91DD3828700988BE6 /* BookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D167D81DD3828700988BE6 /* BookVC.swift */; };
+		65D167DC1DD4D0DE00988BE6 /* BookShiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D167DB1DD4D0DE00988BE6 /* BookShiftVC.swift */; };
 		65E8D12A1DC4F7FD005CA3E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E8D1291DC4F7FD005CA3E2 /* AppDelegate.swift */; };
-		65E8D12C1DC4F7FD005CA3E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E8D12B1DC4F7FD005CA3E2 /* ViewController.swift */; };
 		65E8D12F1DC4F7FD005CA3E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E8D12D1DC4F7FD005CA3E2 /* Main.storyboard */; };
 		65E8D1311DC4F7FD005CA3E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E8D1301DC4F7FD005CA3E2 /* Assets.xcassets */; };
-		65E8D1341DC4F7FD005CA3E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E8D1321DC4F7FD005CA3E2 /* LaunchScreen.storyboard */; };
+		65F76F8B1DF86CA900AB1354 /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 65F76F8A1DF86CA900AB1354 /* SF-UI-Text-Light.otf */; };
+		65F76F8E1DF86D8800AB1354 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F76F8D1DF86D8800AB1354 /* CustomButton.swift */; };
+		65F76F931DF86EEC00AB1354 /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 65F76F8F1DF86EEC00AB1354 /* SF-UI-Text-Bold.otf */; };
+		65F76F941DF86EEC00AB1354 /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 65F76F901DF86EEC00AB1354 /* SF-UI-Text-Medium.otf */; };
+		65F76F951DF86EEC00AB1354 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 65F76F911DF86EEC00AB1354 /* SF-UI-Text-Regular.otf */; };
+		65F76F961DF86EEC00AB1354 /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 65F76F921DF86EEC00AB1354 /* SF-UI-Text-Semibold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6508EA091DF545D200BCC52B /* AdviceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdviceVC.swift; sourceTree = "<group>"; };
+		6508EA0B1DF5490800BCC52B /* no-image-available_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-image-available_1.png"; sourceTree = "<group>"; };
+		6508EA0D1DF7086B00BCC52B /* Menu_000000_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu_000000_25.png; sourceTree = "<group>"; };
+		6508EA0F1DF713F800BCC52B /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		6508EA111DF7ADFA00BCC52B /* customLaunchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customLaunchScreen.swift; sourceTree = "<group>"; };
+		6508EA131DF7B2FF00BCC52B /* salon logo square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "salon logo square.png"; sourceTree = "<group>"; };
+		650C2D731DFA4641000E923B /* Screen Shot 2016-12-09 at 8.51.01 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-12-09 at 8.51.01 AM.png"; sourceTree = "<group>"; };
+		656544DA1DC8EDBF00ADB186 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		656544DC1DC8F2AA00ADB186 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		656544DE1DC8F2D900ADB186 /* SignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		659CDC411DCB82D8009F3EE5 /* Calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar.png; sourceTree = "<group>"; };
+		659CDC421DCB82D8009F3EE5 /* Calendar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar1.png; sourceTree = "<group>"; };
+		659CDC431DCB82D8009F3EE5 /* Contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contacts.png; sourceTree = "<group>"; };
+		659CDC441DCB82D8009F3EE5 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		659CDC451DCB82D8009F3EE5 /* Home1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home1.png; sourceTree = "<group>"; };
+		659CDC461DCB82D8009F3EE5 /* Manager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Manager.png; sourceTree = "<group>"; };
+		659CDC511DCD7D9B009F3EE5 /* HomeTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTVC.swift; sourceTree = "<group>"; };
+		659CDC531DCD834A009F3EE5 /* CellTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTVCell.swift; sourceTree = "<group>"; };
+		659CDC561DCD845C009F3EE5 /* hairStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hairStyles.swift; sourceTree = "<group>"; };
+		659CDC5A1DCD869E009F3EE5 /* 20160402-101353-angular-fringe_520x680.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20160402-101353-angular-fringe_520x680.jpg"; sourceTree = "<group>"; };
+		659CDC5B1DCD869E009F3EE5 /* 20160404-121857-asian-boy-hairstyles_520x711.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20160404-121857-asian-boy-hairstyles_520x711.jpg"; sourceTree = "<group>"; };
+		659CDC5C1DCD869E009F3EE5 /* Capture.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Capture.JPG; sourceTree = "<group>"; };
+		659CDC601DCD86AF009F3EE5 /* 20160404-123936-choiseung-hyunhairstyle_520x548.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20160404-123936-choiseung-hyunhairstyle_520x548.jpg"; sourceTree = "<group>"; };
+		659CDC611DCD86AF009F3EE5 /* 20160404-123937-taecyeon-hairstyle_520x698.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20160404-123937-taecyeon-hairstyle_520x698.jpg"; sourceTree = "<group>"; };
+		659CDC621DCD86AF009F3EE5 /* brushed-up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brushed-up.jpg"; sourceTree = "<group>"; };
+		659CDC691DCD874B009F3EE5 /* 2-ohay-tv-57254.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2-ohay-tv-57254.jpg"; sourceTree = "<group>"; };
+		659CDC6A1DCD874B009F3EE5 /* buzz-cut-men-hairstyles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "buzz-cut-men-hairstyles.jpg"; sourceTree = "<group>"; };
+		659CDC6B1DCD874B009F3EE5 /* kieu-toc-nam-2015-quyen-ru-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kieu-toc-nam-2015-quyen-ru-8.jpg"; sourceTree = "<group>"; };
+		659CDC711DCD894D009F3EE5 /* Capture1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Capture1.JPG; sourceTree = "<group>"; };
+		659CDC721DCD894D009F3EE5 /* image-892x1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-892x1024.jpg"; sourceTree = "<group>"; };
+		659CDC731DCD894D009F3EE5 /* toc-bui-dac-quyen-khong-cua-rieng-ai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "toc-bui-dac-quyen-khong-cua-rieng-ai.jpg"; sourceTree = "<group>"; };
+		659CDC781DCD899A009F3EE5 /* 20160404-101112-c9223f4d1cae224198c673f666efc9f1_520x626.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20160404-101112-c9223f4d1cae224198c673f666efc9f1_520x626.jpg"; sourceTree = "<group>"; };
+		659CDC791DCD899A009F3EE5 /* modern-pompadour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "modern-pompadour.jpg"; sourceTree = "<group>"; };
+		659CDC7A1DCD899A009F3EE5 /* winter-kapsels-2016-mannen-56_16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "winter-kapsels-2016-mannen-56_16.jpg"; sourceTree = "<group>"; };
+		659CDC7F1DCD89B8009F3EE5 /* crane4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crane4.jpg; sourceTree = "<group>"; };
+		659CDC801DCD89B8009F3EE5 /* ea7796a0ecd3764dd8792ec15929ad81.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ea7796a0ecd3764dd8792ec15929ad81.jpg; sourceTree = "<group>"; };
+		659CDC811DCD89B8009F3EE5 /* toc-quiff-nam-dep-sanh-dieu-khong-loi-mot-thoi-trang-2015-2016-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "toc-quiff-nam-dep-sanh-dieu-khong-loi-mot-thoi-trang-2015-2016-7.jpg"; sourceTree = "<group>"; };
+		659CDC861DCD89F6009F3EE5 /* 7-ohay-tv-49283.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7-ohay-tv-49283.jpg"; sourceTree = "<group>"; };
+		659CDC871DCD89F6009F3EE5 /* 20160404-101926-bcd5e1b7403789d6631fd57e9506f620_520x520.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20160404-101926-bcd5e1b7403789d6631fd57e9506f620_520x520.jpg"; sourceTree = "<group>"; };
+		659CDC881DCD89F6009F3EE5 /* side_part_hairstyles_men_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = side_part_hairstyles_men_7.jpg; sourceTree = "<group>"; };
+		659CDC891DCD89F6009F3EE5 /* side-part-fade-hairstyles-men-hairstyles-for-men-a-guide-to-mens-haircuts-gentleman39s-gazette-Picture-HD-Wallpapers-Stylir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "side-part-fade-hairstyles-men-hairstyles-for-men-a-guide-to-mens-haircuts-gentleman39s-gazette-Picture-HD-Wallpapers-Stylir.jpg"; sourceTree = "<group>"; };
+		659CDC8F1DCD8A1C009F3EE5 /* 52834-nhung-kieu-toc-dep-cho-nam-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "52834-nhung-kieu-toc-dep-cho-nam-2.jpg"; sourceTree = "<group>"; };
+		659CDC901DCD8A1C009F3EE5 /* 20160404-104945-hair281_520x356.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20160404-104945-hair281_520x356.jpeg"; sourceTree = "<group>"; };
+		659CDC911DCD8A1C009F3EE5 /* 20160404-123245-short-and-slick-hairstyle-for-men_520x310.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20160404-123245-short-and-slick-hairstyle-for-men_520x310.jpg"; sourceTree = "<group>"; };
+		659CDC961DCD8A39009F3EE5 /* Slicked-backKieu-toc-dep-va-don-gian-nhat-moi-thoi-dai_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Slicked-backKieu-toc-dep-va-don-gian-nhat-moi-thoi-dai_5.jpg"; sourceTree = "<group>"; };
+		659CDC971DCD8A39009F3EE5 /* Slicked-backKieu-toc-dep-va-don-gian-nhat-moi-thoi-dai_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Slicked-backKieu-toc-dep-va-don-gian-nhat-moi-thoi-dai_7.jpg"; sourceTree = "<group>"; };
+		659CDC981DCD8A39009F3EE5 /* the-joker_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-joker_0.jpg"; sourceTree = "<group>"; };
+		659CDC9D1DCD8A51009F3EE5 /* ten-goi-cac-kieu-toc-nam-han-quoc-duoc-yeu-thich-nhat-1454443389-56b10b7dd9b2c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ten-goi-cac-kieu-toc-nam-han-quoc-duoc-yeu-thich-nhat-1454443389-56b10b7dd9b2c.jpg"; sourceTree = "<group>"; };
+		659CDC9E1DCD8A51009F3EE5 /* toc-nam-han-quoc-dep-cua-tai-tu-yonghwa-duoc-ua-chuong-nhat-2016-14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "toc-nam-han-quoc-dep-cua-tai-tu-yonghwa-duoc-ua-chuong-nhat-2016-14.jpg"; sourceTree = "<group>"; };
+		659CDC9F1DCD8A51009F3EE5 /* toc-nam-tia-layer-ngan-dep-2016-phong-cach-nhu-lee-min-ho-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "toc-nam-tia-layer-ngan-dep-2016-phong-cach-nhu-lee-min-ho-2.jpg"; sourceTree = "<group>"; };
+		659CDCA41DCD8A7B009F3EE5 /* toc-nam-undercut-ngan-dep-2015-2016-cho-khuon-mat-tron-banh-bao-13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "toc-nam-undercut-ngan-dep-2015-2016-cho-khuon-mat-tron-banh-bao-13.jpg"; sourceTree = "<group>"; };
+		659CDCA51DCD8A7B009F3EE5 /* toc-nam-undercut-ngan-dep-2015-2016-cho-khuon-mat-tron-banh-bao-14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "toc-nam-undercut-ngan-dep-2015-2016-cho-khuon-mat-tron-banh-bao-14.jpg"; sourceTree = "<group>"; };
+		659CDCA61DCD8A7B009F3EE5 /* toc-undercut-Beckham.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "toc-undercut-Beckham.jpg"; sourceTree = "<group>"; };
+		659CDCA71DCD8A7B009F3EE5 /* toc-undercut1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "toc-undercut1.jpg"; sourceTree = "<group>"; };
+		659CDCAC1DCD8F87009F3EE5 /* 2-salon-barber-logo-design.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-salon-barber-logo-design.png"; sourceTree = "<group>"; };
+		659CDCAE1DCD9967009F3EE5 /* DetailStyleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailStyleVC.swift; sourceTree = "<group>"; };
+		659EB6691DF8076E00102D9A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65B1E2E91DF8830D000711C1 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		65B1E2EB1DF88490000711C1 /* Inbox_000000_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Inbox_000000_25.png; sourceTree = "<group>"; };
+		65B1E2EC1DF88490000711C1 /* Lock_000000_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lock_000000_25.png; sourceTree = "<group>"; };
+		65D167D81DD3828700988BE6 /* BookVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookVC.swift; sourceTree = "<group>"; };
+		65D167DB1DD4D0DE00988BE6 /* BookShiftVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookShiftVC.swift; sourceTree = "<group>"; };
 		65E8D1261DC4F7FD005CA3E2 /* MyHairCut_TieuDoi7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHairCut_TieuDoi7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E8D1291DC4F7FD005CA3E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65E8D12B1DC4F7FD005CA3E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65E8D12E1DC4F7FD005CA3E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65E8D1301DC4F7FD005CA3E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		65E8D1331DC4F7FD005CA3E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65E8D1351DC4F7FD005CA3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65F76F8A1DF86CA900AB1354 /* SF-UI-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Light.otf"; sourceTree = "<group>"; };
+		65F76F8D1DF86D8800AB1354 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		65F76F8F1DF86EEC00AB1354 /* SF-UI-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Bold.otf"; sourceTree = "<group>"; };
+		65F76F901DF86EEC00AB1354 /* SF-UI-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Medium.otf"; sourceTree = "<group>"; };
+		65F76F911DF86EEC00AB1354 /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		65F76F921DF86EEC00AB1354 /* SF-UI-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Semibold.otf"; sourceTree = "<group>"; };
+		A92F68B3B98675F2EBCC62B8 /* Pods-MyHairCut_TieuDoi7.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHairCut_TieuDoi7.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyHairCut_TieuDoi7/Pods-MyHairCut_TieuDoi7.release.xcconfig"; sourceTree = "<group>"; };
+		AADA18ACACBF59DE143D3767 /* Pods-MyHairCut_TieuDoi7.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHairCut_TieuDoi7.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyHairCut_TieuDoi7/Pods-MyHairCut_TieuDoi7.debug.xcconfig"; sourceTree = "<group>"; };
+		E81487A4C86159D42F1E33E9 /* Pods_MyHairCut_TieuDoi7.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyHairCut_TieuDoi7.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +165,208 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A0C9435C521B360F0AA3DF /* Pods_MyHairCut_TieuDoi7.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6508EA081DF545AC00BCC52B /* Advice */ = {
+			isa = PBXGroup;
+			children = (
+				6508EA091DF545D200BCC52B /* AdviceVC.swift */,
+			);
+			name = Advice;
+			sourceTree = "<group>";
+		};
+		659CDC401DCB818F009F3EE5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				650C2D731DFA4641000E923B /* Screen Shot 2016-12-09 at 8.51.01 AM.png */,
+				6508EA131DF7B2FF00BCC52B /* salon logo square.png */,
+				6508EA0D1DF7086B00BCC52B /* Menu_000000_25.png */,
+				6508EA0B1DF5490800BCC52B /* no-image-available_1.png */,
+				659CDCAC1DCD8F87009F3EE5 /* 2-salon-barber-logo-design.png */,
+				659CDC591DCD8670009F3EE5 /* styles */,
+				659CDC581DCD8663009F3EE5 /* icon */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		659CDC551DCD8351009F3EE5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				659CDC531DCD834A009F3EE5 /* CellTVCell.swift */,
+				659CDC511DCD7D9B009F3EE5 /* HomeTVC.swift */,
+				659CDC561DCD845C009F3EE5 /* hairStyles.swift */,
+				659CDCAE1DCD9967009F3EE5 /* DetailStyleVC.swift */,
+				6508EA0F1DF713F800BCC52B /* HomeVC.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		659CDC581DCD8663009F3EE5 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				65B1E2EB1DF88490000711C1 /* Inbox_000000_25.png */,
+				65B1E2EC1DF88490000711C1 /* Lock_000000_25.png */,
+				659CDC411DCB82D8009F3EE5 /* Calendar.png */,
+				659CDC421DCB82D8009F3EE5 /* Calendar1.png */,
+				659CDC431DCB82D8009F3EE5 /* Contacts.png */,
+				659CDC441DCB82D8009F3EE5 /* Home.png */,
+				659CDC451DCB82D8009F3EE5 /* Home1.png */,
+				659CDC461DCB82D8009F3EE5 /* Manager.png */,
+			);
+			name = icon;
+			sourceTree = "<group>";
+		};
+		659CDC591DCD8670009F3EE5 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				659CDCA31DCD8A69009F3EE5 /* UnderCut */,
+				659CDC9C1DCD8A3F009F3EE5 /* Tỉa Layer */,
+				659CDC951DCD8A20009F3EE5 /* Slicked Back */,
+				659CDC8E1DCD89FA009F3EE5 /* Simple Casual */,
+				659CDC851DCD89BC009F3EE5 /* Side Part */,
+				659CDC7E1DCD89A2009F3EE5 /* Quiff */,
+				659CDC771DCD8979009F3EE5 /* Pompadour */,
+				659CDC701DCD87B7009F3EE5 /* ManBun_TopKnot */,
+				659CDC681DCD870C009F3EE5 /* Caesar */,
+				659CDC671DCD86F9009F3EE5 /* Brushed Up */,
+				659CDC661DCD86DF009F3EE5 /* Angular Fringe */,
+			);
+			name = styles;
+			sourceTree = "<group>";
+		};
+		659CDC661DCD86DF009F3EE5 /* Angular Fringe */ = {
+			isa = PBXGroup;
+			children = (
+				659CDC5A1DCD869E009F3EE5 /* 20160402-101353-angular-fringe_520x680.jpg */,
+				659CDC5B1DCD869E009F3EE5 /* 20160404-121857-asian-boy-hairstyles_520x711.jpg */,
+				659CDC5C1DCD869E009F3EE5 /* Capture.JPG */,
+			);
+			name = "Angular Fringe";
+			sourceTree = "<group>";
+		};
+		659CDC671DCD86F9009F3EE5 /* Brushed Up */ = {
+			isa = PBXGroup;
+			children = (
+				659CDC601DCD86AF009F3EE5 /* 20160404-123936-choiseung-hyunhairstyle_520x548.jpg */,
+				659CDC611DCD86AF009F3EE5 /* 20160404-123937-taecyeon-hairstyle_520x698.jpg */,
+				659CDC621DCD86AF009F3EE5 /* brushed-up.jpg */,
+			);
+			name = "Brushed Up";
+			sourceTree = "<group>";
+		};
+		659CDC681DCD870C009F3EE5 /* Caesar */ = {
+			isa = PBXGroup;
+			children = (
+				659CDC691DCD874B009F3EE5 /* 2-ohay-tv-57254.jpg */,
+				659CDC6A1DCD874B009F3EE5 /* buzz-cut-men-hairstyles.jpg */,
+				659CDC6B1DCD874B009F3EE5 /* kieu-toc-nam-2015-quyen-ru-8.jpg */,
+			);
+			name = Caesar;
+			sourceTree = "<group>";
+		};
+		659CDC701DCD87B7009F3EE5 /* ManBun_TopKnot */ = {
+			isa = PBXGroup;
+			children = (
+				659CDC711DCD894D009F3EE5 /* Capture1.JPG */,
+				659CDC721DCD894D009F3EE5 /* image-892x1024.jpg */,
+				659CDC731DCD894D009F3EE5 /* toc-bui-dac-quyen-khong-cua-rieng-ai.jpg */,
+			);
+			name = ManBun_TopKnot;
+			sourceTree = "<group>";
+		};
+		659CDC771DCD8979009F3EE5 /* Pompadour */ = {
+			isa = PBXGroup;
+			children = (
+				659CDC781DCD899A009F3EE5 /* 20160404-101112-c9223f4d1cae224198c673f666efc9f1_520x626.jpg */,
+				659CDC791DCD899A009F3EE5 /* modern-pompadour.jpg */,
+				659CDC7A1DCD899A009F3EE5 /* winter-kapsels-2016-mannen-56_16.jpg */,
+			);
+			name = Pompadour;
+			sourceTree = "<group>";
+		};
+		659CDC7E1DCD89A2009F3EE5 /* Quiff */ = {
+			isa = PBXGroup;
+			children = (
+				659CDC7F1DCD89B8009F3EE5 /* crane4.jpg */,
+				659CDC801DCD89B8009F3EE5 /* ea7796a0ecd3764dd8792ec15929ad81.jpg */,
+				659CDC811DCD89B8009F3EE5 /* toc-quiff-nam-dep-sanh-dieu-khong-loi-mot-thoi-trang-2015-2016-7.jpg */,
+			);
+			name = Quiff;
+			sourceTree = "<group>";
+		};
+		659CDC851DCD89BC009F3EE5 /* Side Part */ = {
+			isa = PBXGroup;
+			children = (
+				659CDC861DCD89F6009F3EE5 /* 7-ohay-tv-49283.jpg */,
+				659CDC871DCD89F6009F3EE5 /* 20160404-101926-bcd5e1b7403789d6631fd57e9506f620_520x520.jpg */,
+				659CDC881DCD89F6009F3EE5 /* side_part_hairstyles_men_7.jpg */,
+				659CDC891DCD89F6009F3EE5 /* side-part-fade-hairstyles-men-hairstyles-for-men-a-guide-to-mens-haircuts-gentleman39s-gazette-Picture-HD-Wallpapers-Stylir.jpg */,
+			);
+			name = "Side Part";
+			sourceTree = "<group>";
+		};
+		659CDC8E1DCD89FA009F3EE5 /* Simple Casual */ = {
+			isa = PBXGroup;
+			children = (
+				659CDC8F1DCD8A1C009F3EE5 /* 52834-nhung-kieu-toc-dep-cho-nam-2.jpg */,
+				659CDC901DCD8A1C009F3EE5 /* 20160404-104945-hair281_520x356.jpeg */,
+				659CDC911DCD8A1C009F3EE5 /* 20160404-123245-short-and-slick-hairstyle-for-men_520x310.jpg */,
+			);
+			name = "Simple Casual";
+			sourceTree = "<group>";
+		};
+		659CDC951DCD8A20009F3EE5 /* Slicked Back */ = {
+			isa = PBXGroup;
+			children = (
+				659CDC961DCD8A39009F3EE5 /* Slicked-backKieu-toc-dep-va-don-gian-nhat-moi-thoi-dai_5.jpg */,
+				659CDC971DCD8A39009F3EE5 /* Slicked-backKieu-toc-dep-va-don-gian-nhat-moi-thoi-dai_7.jpg */,
+				659CDC981DCD8A39009F3EE5 /* the-joker_0.jpg */,
+			);
+			name = "Slicked Back";
+			sourceTree = "<group>";
+		};
+		659CDC9C1DCD8A3F009F3EE5 /* Tỉa Layer */ = {
+			isa = PBXGroup;
+			children = (
+				659CDC9D1DCD8A51009F3EE5 /* ten-goi-cac-kieu-toc-nam-han-quoc-duoc-yeu-thich-nhat-1454443389-56b10b7dd9b2c.jpg */,
+				659CDC9E1DCD8A51009F3EE5 /* toc-nam-han-quoc-dep-cua-tai-tu-yonghwa-duoc-ua-chuong-nhat-2016-14.jpg */,
+				659CDC9F1DCD8A51009F3EE5 /* toc-nam-tia-layer-ngan-dep-2016-phong-cach-nhu-lee-min-ho-2.jpg */,
+			);
+			name = "Tỉa Layer";
+			sourceTree = "<group>";
+		};
+		659CDCA31DCD8A69009F3EE5 /* UnderCut */ = {
+			isa = PBXGroup;
+			children = (
+				659CDCA41DCD8A7B009F3EE5 /* toc-nam-undercut-ngan-dep-2015-2016-cho-khuon-mat-tron-banh-bao-13.jpg */,
+				659CDCA51DCD8A7B009F3EE5 /* toc-nam-undercut-ngan-dep-2015-2016-cho-khuon-mat-tron-banh-bao-14.jpg */,
+				659CDCA61DCD8A7B009F3EE5 /* toc-undercut-Beckham.jpg */,
+				659CDCA71DCD8A7B009F3EE5 /* toc-undercut1.jpg */,
+			);
+			name = UnderCut;
+			sourceTree = "<group>";
+		};
+		65D167DA1DD382A800988BE6 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				65D167D81DD3828700988BE6 /* BookVC.swift */,
+				65D167DB1DD4D0DE00988BE6 /* BookShiftVC.swift */,
+			);
+			name = Book;
+			sourceTree = "<group>";
+		};
 		65E8D11D1DC4F7FD005CA3E2 = {
 			isa = PBXGroup;
 			children = (
 				65E8D1281DC4F7FD005CA3E2 /* MyHairCut_TieuDoi7 */,
-				65E8D1271DC4F7FD005CA3E2 /* Products */,
+				70D90D17C3F443E2A6593704 /* Pods */,
+				AB223BF9BDC70AA6E00C8D51 /* Frameworks */,
+				6FBF4D602D9DAF8F6B8339D2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,19 +376,75 @@
 				65E8D1261DC4F7FD005CA3E2 /* MyHairCut_TieuDoi7.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		65E8D1281DC4F7FD005CA3E2 /* MyHairCut_TieuDoi7 */ = {
 			isa = PBXGroup;
 			children = (
+				659CDC401DCB818F009F3EE5 /* Resource */,
 				65E8D1291DC4F7FD005CA3E2 /* AppDelegate.swift */,
-				65E8D12B1DC4F7FD005CA3E2 /* ViewController.swift */,
 				65E8D12D1DC4F7FD005CA3E2 /* Main.storyboard */,
+				656544DC1DC8F2AA00ADB186 /* LoginVC.swift */,
+				656544DE1DC8F2D900ADB186 /* SignupVC.swift */,
+				6508EA111DF7ADFA00BCC52B /* customLaunchScreen.swift */,
+				659CDC551DCD8351009F3EE5 /* Home */,
+				65D167DA1DD382A800988BE6 /* Book */,
+				6508EA081DF545AC00BCC52B /* Advice */,
+				65F76F831DF8693100AB1354 /* Font */,
+				65F76F8C1DF86D5000AB1354 /* View */,
 				65E8D1301DC4F7FD005CA3E2 /* Assets.xcassets */,
-				65E8D1321DC4F7FD005CA3E2 /* LaunchScreen.storyboard */,
 				65E8D1351DC4F7FD005CA3E2 /* Info.plist */,
+				659EB6691DF8076E00102D9A /* LaunchScreen.storyboard */,
+				656544DA1DC8EDBF00ADB186 /* GoogleService-Info.plist */,
+				65E8D1271DC4F7FD005CA3E2 /* Products */,
 			);
 			path = MyHairCut_TieuDoi7;
+			sourceTree = "<group>";
+		};
+		65F76F831DF8693100AB1354 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				65F76F8F1DF86EEC00AB1354 /* SF-UI-Text-Bold.otf */,
+				65F76F901DF86EEC00AB1354 /* SF-UI-Text-Medium.otf */,
+				65F76F911DF86EEC00AB1354 /* SF-UI-Text-Regular.otf */,
+				65F76F921DF86EEC00AB1354 /* SF-UI-Text-Semibold.otf */,
+				65F76F8A1DF86CA900AB1354 /* SF-UI-Text-Light.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		65F76F8C1DF86D5000AB1354 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65F76F8D1DF86D8800AB1354 /* CustomButton.swift */,
+				65B1E2E91DF8830D000711C1 /* CustomTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6FBF4D602D9DAF8F6B8339D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70D90D17C3F443E2A6593704 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AADA18ACACBF59DE143D3767 /* Pods-MyHairCut_TieuDoi7.debug.xcconfig */,
+				A92F68B3B98675F2EBCC62B8 /* Pods-MyHairCut_TieuDoi7.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB223BF9BDC70AA6E00C8D51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E81487A4C86159D42F1E33E9 /* Pods_MyHairCut_TieuDoi7.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +454,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65E8D1381DC4F7FD005CA3E2 /* Build configuration list for PBXNativeTarget "MyHairCut_TieuDoi7" */;
 			buildPhases = (
+				7F36C8E11955AD328972A262 /* [CP] Check Pods Manifest.lock */,
 				65E8D1221DC4F7FD005CA3E2 /* Sources */,
 				65E8D1231DC4F7FD005CA3E2 /* Frameworks */,
 				65E8D1241DC4F7FD005CA3E2 /* Resources */,
+				F1725CB0F31A8535DD55A496 /* [CP] Embed Pods Frameworks */,
+				07283610E102DA67AF366E1F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,11 +477,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = FenrirQ;
 				TargetAttributes = {
 					65E8D1251DC4F7FD005CA3E2 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = L35CC7U9J6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -109,7 +496,7 @@
 				Base,
 			);
 			mainGroup = 65E8D11D1DC4F7FD005CA3E2;
-			productRefGroup = 65E8D1271DC4F7FD005CA3E2 /* Products */;
+			productRefGroup = 6FBF4D602D9DAF8F6B8339D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -123,21 +510,135 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65E8D1341DC4F7FD005CA3E2 /* LaunchScreen.storyboard in Resources */,
+				659CDC5D1DCD869E009F3EE5 /* 20160402-101353-angular-fringe_520x680.jpg in Resources */,
+				659CDCA11DCD8A51009F3EE5 /* toc-nam-han-quoc-dep-cua-tai-tu-yonghwa-duoc-ua-chuong-nhat-2016-14.jpg in Resources */,
+				659CDC7D1DCD899A009F3EE5 /* winter-kapsels-2016-mannen-56_16.jpg in Resources */,
+				659CDC9A1DCD8A39009F3EE5 /* Slicked-backKieu-toc-dep-va-don-gian-nhat-moi-thoi-dai_7.jpg in Resources */,
+				659CDC491DCB82D8009F3EE5 /* Contacts.png in Resources */,
+				659CDC7B1DCD899A009F3EE5 /* 20160404-101112-c9223f4d1cae224198c673f666efc9f1_520x626.jpg in Resources */,
+				65F76F961DF86EEC00AB1354 /* SF-UI-Text-Semibold.otf in Resources */,
+				659CDC831DCD89B8009F3EE5 /* ea7796a0ecd3764dd8792ec15929ad81.jpg in Resources */,
+				659CDC8A1DCD89F6009F3EE5 /* 7-ohay-tv-49283.jpg in Resources */,
+				659CDC991DCD8A39009F3EE5 /* Slicked-backKieu-toc-dep-va-don-gian-nhat-moi-thoi-dai_5.jpg in Resources */,
+				65F76F931DF86EEC00AB1354 /* SF-UI-Text-Bold.otf in Resources */,
+				659CDC8B1DCD89F6009F3EE5 /* 20160404-101926-bcd5e1b7403789d6631fd57e9506f620_520x520.jpg in Resources */,
+				659CDCA81DCD8A7B009F3EE5 /* toc-nam-undercut-ngan-dep-2015-2016-cho-khuon-mat-tron-banh-bao-13.jpg in Resources */,
+				659EB66A1DF8076E00102D9A /* LaunchScreen.storyboard in Resources */,
+				659CDCAA1DCD8A7C009F3EE5 /* toc-undercut-Beckham.jpg in Resources */,
+				659CDC7C1DCD899A009F3EE5 /* modern-pompadour.jpg in Resources */,
+				659CDC761DCD894D009F3EE5 /* toc-bui-dac-quyen-khong-cua-rieng-ai.jpg in Resources */,
+				659CDC751DCD894D009F3EE5 /* image-892x1024.jpg in Resources */,
+				659CDC931DCD8A1C009F3EE5 /* 20160404-104945-hair281_520x356.jpeg in Resources */,
+				6508EA141DF7B2FF00BCC52B /* salon logo square.png in Resources */,
+				659CDC631DCD86AF009F3EE5 /* 20160404-123936-choiseung-hyunhairstyle_520x548.jpg in Resources */,
+				659CDC471DCB82D8009F3EE5 /* Calendar.png in Resources */,
+				65B1E2ED1DF88490000711C1 /* Inbox_000000_25.png in Resources */,
+				65F76F8B1DF86CA900AB1354 /* SF-UI-Text-Light.otf in Resources */,
+				659CDC641DCD86AF009F3EE5 /* 20160404-123937-taecyeon-hairstyle_520x698.jpg in Resources */,
+				659CDC941DCD8A1C009F3EE5 /* 20160404-123245-short-and-slick-hairstyle-for-men_520x310.jpg in Resources */,
+				659CDC6E1DCD874B009F3EE5 /* kieu-toc-nam-2015-quyen-ru-8.jpg in Resources */,
+				65B1E2EE1DF88490000711C1 /* Lock_000000_25.png in Resources */,
+				659CDC8C1DCD89F6009F3EE5 /* side_part_hairstyles_men_7.jpg in Resources */,
+				659CDCA91DCD8A7B009F3EE5 /* toc-nam-undercut-ngan-dep-2015-2016-cho-khuon-mat-tron-banh-bao-14.jpg in Resources */,
+				650C2D741DFA4641000E923B /* Screen Shot 2016-12-09 at 8.51.01 AM.png in Resources */,
+				659CDCA01DCD8A51009F3EE5 /* ten-goi-cac-kieu-toc-nam-han-quoc-duoc-yeu-thich-nhat-1454443389-56b10b7dd9b2c.jpg in Resources */,
+				65F76F941DF86EEC00AB1354 /* SF-UI-Text-Medium.otf in Resources */,
+				659CDCAD1DCD8F87009F3EE5 /* 2-salon-barber-logo-design.png in Resources */,
+				659CDC4C1DCB82D8009F3EE5 /* Manager.png in Resources */,
+				659CDCA21DCD8A51009F3EE5 /* toc-nam-tia-layer-ngan-dep-2016-phong-cach-nhu-lee-min-ho-2.jpg in Resources */,
+				659CDC5E1DCD869E009F3EE5 /* 20160404-121857-asian-boy-hairstyles_520x711.jpg in Resources */,
+				659CDC6D1DCD874B009F3EE5 /* buzz-cut-men-hairstyles.jpg in Resources */,
+				659CDCAB1DCD8A7C009F3EE5 /* toc-undercut1.jpg in Resources */,
+				6508EA0E1DF7086B00BCC52B /* Menu_000000_25.png in Resources */,
+				65F76F951DF86EEC00AB1354 /* SF-UI-Text-Regular.otf in Resources */,
+				656544DB1DC8EDBF00ADB186 /* GoogleService-Info.plist in Resources */,
+				659CDC821DCD89B8009F3EE5 /* crane4.jpg in Resources */,
+				659CDC841DCD89B8009F3EE5 /* toc-quiff-nam-dep-sanh-dieu-khong-loi-mot-thoi-trang-2015-2016-7.jpg in Resources */,
+				659CDC4A1DCB82D8009F3EE5 /* Home.png in Resources */,
+				659CDC481DCB82D8009F3EE5 /* Calendar1.png in Resources */,
+				659CDC921DCD8A1C009F3EE5 /* 52834-nhung-kieu-toc-dep-cho-nam-2.jpg in Resources */,
 				65E8D1311DC4F7FD005CA3E2 /* Assets.xcassets in Resources */,
+				6508EA0C1DF5490800BCC52B /* no-image-available_1.png in Resources */,
+				659CDC6C1DCD874B009F3EE5 /* 2-ohay-tv-57254.jpg in Resources */,
+				659CDC651DCD86AF009F3EE5 /* brushed-up.jpg in Resources */,
+				659CDC8D1DCD89F6009F3EE5 /* side-part-fade-hairstyles-men-hairstyles-for-men-a-guide-to-mens-haircuts-gentleman39s-gazette-Picture-HD-Wallpapers-Stylir.jpg in Resources */,
+				659CDC741DCD894D009F3EE5 /* Capture1.JPG in Resources */,
+				659CDC9B1DCD8A39009F3EE5 /* the-joker_0.jpg in Resources */,
+				659CDC5F1DCD869E009F3EE5 /* Capture.JPG in Resources */,
 				65E8D12F1DC4F7FD005CA3E2 /* Main.storyboard in Resources */,
+				659CDC4B1DCB82D8009F3EE5 /* Home1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07283610E102DA67AF366E1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyHairCut_TieuDoi7/Pods-MyHairCut_TieuDoi7-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F36C8E11955AD328972A262 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1725CB0F31A8535DD55A496 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyHairCut_TieuDoi7/Pods-MyHairCut_TieuDoi7-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		65E8D1221DC4F7FD005CA3E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65E8D12C1DC4F7FD005CA3E2 /* ViewController.swift in Sources */,
+				65B1E2EA1DF8830D000711C1 /* CustomTextField.swift in Sources */,
+				65F76F8E1DF86D8800AB1354 /* CustomButton.swift in Sources */,
+				656544DF1DC8F2D900ADB186 /* SignupVC.swift in Sources */,
+				6508EA121DF7ADFA00BCC52B /* customLaunchScreen.swift in Sources */,
+				659CDCAF1DCD9967009F3EE5 /* DetailStyleVC.swift in Sources */,
+				65D167DC1DD4D0DE00988BE6 /* BookShiftVC.swift in Sources */,
+				659CDC571DCD845C009F3EE5 /* hairStyles.swift in Sources */,
+				65D167D91DD3828700988BE6 /* BookVC.swift in Sources */,
+				656544DD1DC8F2AA00ADB186 /* LoginVC.swift in Sources */,
+				6508EA0A1DF545D200BCC52B /* AdviceVC.swift in Sources */,
+				659CDC521DCD7D9B009F3EE5 /* HomeTVC.swift in Sources */,
 				65E8D12A1DC4F7FD005CA3E2 /* AppDelegate.swift in Sources */,
+				6508EA101DF713F800BCC52B /* HomeVC.swift in Sources */,
+				659CDC541DCD834A009F3EE5 /* CellTVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,14 +651,6 @@
 				65E8D12E1DC4F7FD005CA3E2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		65E8D1321DC4F7FD005CA3E2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65E8D1331DC4F7FD005CA3E2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -181,6 +674,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -203,7 +697,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -230,6 +724,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -246,7 +741,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -256,25 +751,31 @@
 		};
 		65E8D1391DC4F7FD005CA3E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AADA18ACACBF59DE143D3767 /* Pods-MyHairCut_TieuDoi7.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L35CC7U9J6;
 				INFOPLIST_FILE = MyHairCut_TieuDoi7/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FenrirQ.MyHairCut-TieuDoi7";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		65E8D13A1DC4F7FD005CA3E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92F68B3B98675F2EBCC62B8 /* Pods-MyHairCut_TieuDoi7.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L35CC7U9J6;
 				INFOPLIST_FILE = MyHairCut_TieuDoi7/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FenrirQ.MyHairCut-TieuDoi7";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -297,6 +798,7 @@
 				65E8D13A1DC4F7FD005CA3E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
